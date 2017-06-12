@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B52E4151ECA21EC00FF5A3E /* AdminLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B52E4141ECA21EC00FF5A3E /* AdminLoginPage.swift */; };
+		4B52E4171ECA2AF800FF5A3E /* UserLoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B52E4161ECA2AF800FF5A3E /* UserLoginPage.swift */; };
+		4B52E4191ECA3F8500FF5A3E /* UserRegisterPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B52E4181ECA3F8500FF5A3E /* UserRegisterPage.swift */; };
+		4B52E41B1ECA551000FF5A3E /* UserPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B52E41A1ECA551000FF5A3E /* UserPage.swift */; };
+		4BB045681EC36E3A002B40E0 /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BB045671EC36E3A002B40E0 /* Logo.png */; };
+		4BBE65E41EC35839003B6FEC /* as_admin.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE65E31EC35839003B6FEC /* as_admin.png */; };
+		4BBE65E61EC3584D003B6FEC /* as_user.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BBE65E51EC3584D003B6FEC /* as_user.png */; };
+		EFA075A21EC3A110008E2251 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA075A11EC3A110008E2251 /* AppDelegate.swift */; };
+		EFA075A41EC3A110008E2251 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA075A31EC3A110008E2251 /* ViewController.swift */; };
+		EFA075A71EC3A110008E2251 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA075A51EC3A110008E2251 /* Main.storyboard */; };
+		EFA075A91EC3A110008E2251 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFA075A81EC3A110008E2251 /* Assets.xcassets */; };
+		EFA075AC1EC3A110008E2251 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFA075AA1EC3A110008E2251 /* LaunchScreen.storyboard */; };
+		EFA075B71EC3A110008E2251 /* BrawishTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA075B61EC3A110008E2251 /* BrawishTests.swift */; };
+		EFA075C21EC3A111008E2251 /* BrawishUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA075C11EC3A111008E2251 /* BrawishUITests.swift */; };
+		EFA075D21EC3B19D008E2251 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFA075D11EC3B19D008E2251 /* SplashScreen.swift */; };
+		EFB5594F1EEB668C0091DDDE /* edit_notes.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB5594E1EEB668C0091DDDE /* edit_notes.png */; };
+		EFB559511EEB66AF0091DDDE /* service1.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB559501EEB66AF0091DDDE /* service1.png */; };
+		EFB559531EEB66D40091DDDE /* maintenance_report_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB559521EEB66D40091DDDE /* maintenance_report_logo.png */; };
+		EFB559551EEB670A0091DDDE /* about_us3.png in Resources */ = {isa = PBXBuildFile; fileRef = EFB559541EEB670A0091DDDE /* about_us3.png */; };
+		EFB5595A1EEE56B60091DDDE /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB559591EEE56B60091DDDE /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFA075B31EC3A110008E2251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA075961EC3A110008E2251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFA0759D1EC3A110008E2251;
+			remoteInfo = Brawish;
+		};
+		EFA075BE1EC3A111008E2251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFA075961EC3A110008E2251 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFA0759D1EC3A110008E2251;
+			remoteInfo = Brawish;
+		};
+		EFB559601EEE67240091DDDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB5595B1EEE67240091DDDE /* SampleProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D50743C1AC546BB005AD163;
+			remoteInfo = SampleProject;
+		};
+		EFB559621EEE67240091DDDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFB5595B1EEE67240091DDDE /* SampleProject.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2D5074511AC546BB005AD163;
+			remoteInfo = SampleProjectTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B52E4141ECA21EC00FF5A3E /* AdminLoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminLoginPage.swift; sourceTree = "<group>"; };
+		4B52E4161ECA2AF800FF5A3E /* UserLoginPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserLoginPage.swift; sourceTree = "<group>"; };
+		4B52E4181ECA3F8500FF5A3E /* UserRegisterPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserRegisterPage.swift; sourceTree = "<group>"; };
+		4B52E41A1ECA551000FF5A3E /* UserPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserPage.swift; sourceTree = "<group>"; };
+		4BB045671EC36E3A002B40E0 /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		4BBE65E31EC35839003B6FEC /* as_admin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = as_admin.png; path = "../../ConditionApp Pictures/as_admin.png"; sourceTree = "<group>"; };
+		4BBE65E51EC3584D003B6FEC /* as_user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = as_user.png; path = "../../ConditionApp Pictures/as_user.png"; sourceTree = "<group>"; };
+		EF13F9031EEE9F2A000EE032 /* RadioButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RadioButton.h; path = "../../Downloads/RadioButton-ios-master/RadioButton.h"; sourceTree = "<group>"; };
+		EFA0759E1EC3A110008E2251 /* Brawish.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brawish.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA075A11EC3A110008E2251 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFA075A31EC3A110008E2251 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFA075A61EC3A110008E2251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFA075A81EC3A110008E2251 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFA075AB1EC3A110008E2251 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFA075AD1EC3A110008E2251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA075B21EC3A110008E2251 /* BrawishTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrawishTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA075B61EC3A110008E2251 /* BrawishTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrawishTests.swift; sourceTree = "<group>"; };
+		EFA075B81EC3A110008E2251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA075BD1EC3A111008E2251 /* BrawishUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrawishUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFA075C11EC3A111008E2251 /* BrawishUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrawishUITests.swift; sourceTree = "<group>"; };
+		EFA075C31EC3A111008E2251 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFA075D11EC3B19D008E2251 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		EFB5594E1EEB668C0091DDDE /* edit_notes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit_notes.png; sourceTree = "<group>"; };
+		EFB559501EEB66AF0091DDDE /* service1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = service1.png; sourceTree = "<group>"; };
+		EFB559521EEB66D40091DDDE /* maintenance_report_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maintenance_report_logo.png; sourceTree = "<group>"; };
+		EFB559541EEB670A0091DDDE /* about_us3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_us3.png; sourceTree = "<group>"; };
+		EFB559591EEE56B60091DDDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EFB5595B1EEE67240091DDDE /* SampleProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleProject.xcodeproj; path = "../../Downloads/SSRadioButtonsController-master/SampleProject/SampleProject.xcodeproj"; sourceTree = "<group>"; };
+		EFB559641EEE69B90091DDDE /* DLRadioButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = "../DLRadioButton-master/DLRadioButton/DLRadioButton.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFA0759B1EC3A110008E2251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFB5595A1EEE56B60091DDDE /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA075AF1EC3A110008E2251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA075BA1EC3A111008E2251 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFA075951EC3A110008E2251 = {
+			isa = PBXGroup;
+			children = (
+				EFA075A01EC3A110008E2251 /* Brawish */,
+				EFA075B51EC3A110008E2251 /* BrawishTests */,
+				EFA075C01EC3A111008E2251 /* BrawishUITests */,
+				EFB559581EEE56B60091DDDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EFA0759F1EC3A110008E2251 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFA0759E1EC3A110008E2251 /* Brawish.app */,
+				EFA075B21EC3A110008E2251 /* BrawishTests.xctest */,
+				EFA075BD1EC3A111008E2251 /* BrawishUITests.xctest */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		EFA075A01EC3A110008E2251 /* Brawish */ = {
+			isa = PBXGroup;
+			children = (
+				EFB5594E1EEB668C0091DDDE /* edit_notes.png */,
+				EFB559501EEB66AF0091DDDE /* service1.png */,
+				EFB559541EEB670A0091DDDE /* about_us3.png */,
+				EFB559521EEB66D40091DDDE /* maintenance_report_logo.png */,
+				4BB045671EC36E3A002B40E0 /* Logo.png */,
+				4BBE65E31EC35839003B6FEC /* as_admin.png */,
+				4BBE65E51EC3584D003B6FEC /* as_user.png */,
+				EFA075A11EC3A110008E2251 /* AppDelegate.swift */,
+				EFA075A31EC3A110008E2251 /* ViewController.swift */,
+				EFA075A51EC3A110008E2251 /* Main.storyboard */,
+				EFA075A81EC3A110008E2251 /* Assets.xcassets */,
+				EFA075AA1EC3A110008E2251 /* LaunchScreen.storyboard */,
+				EFA075AD1EC3A110008E2251 /* Info.plist */,
+				EFA075D11EC3B19D008E2251 /* SplashScreen.swift */,
+				4B52E4141ECA21EC00FF5A3E /* AdminLoginPage.swift */,
+				4B52E4161ECA2AF800FF5A3E /* UserLoginPage.swift */,
+				4B52E4181ECA3F8500FF5A3E /* UserRegisterPage.swift */,
+				4B52E41A1ECA551000FF5A3E /* UserPage.swift */,
+				EFA0759F1EC3A110008E2251 /* Products */,
+			);
+			path = Brawish;
+			sourceTree = "<group>";
+		};
+		EFA075B51EC3A110008E2251 /* BrawishTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFA075B61EC3A110008E2251 /* BrawishTests.swift */,
+				EFA075B81EC3A110008E2251 /* Info.plist */,
+			);
+			path = BrawishTests;
+			sourceTree = "<group>";
+		};
+		EFA075C01EC3A111008E2251 /* BrawishUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFA075C11EC3A111008E2251 /* BrawishUITests.swift */,
+				EFA075C31EC3A111008E2251 /* Info.plist */,
+			);
+			path = BrawishUITests;
+			sourceTree = "<group>";
+		};
+		EFB559581EEE56B60091DDDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF13F9031EEE9F2A000EE032 /* RadioButton.h */,
+				EFB559641EEE69B90091DDDE /* DLRadioButton.m */,
+				EFB5595B1EEE67240091DDDE /* SampleProject.xcodeproj */,
+				EFB559591EEE56B60091DDDE /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFB5595C1EEE67240091DDDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFB559611EEE67240091DDDE /* SampleProject.app */,
+				EFB559631EEE67240091DDDE /* SampleProjectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFA0759D1EC3A110008E2251 /* Brawish */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA075C61EC3A111008E2251 /* Build configuration list for PBXNativeTarget "Brawish" */;
+			buildPhases = (
+				EFA0759A1EC3A110008E2251 /* Sources */,
+				EFA0759B1EC3A110008E2251 /* Frameworks */,
+				EFA0759C1EC3A110008E2251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Brawish;
+			productName = Brawish;
+			productReference = EFA0759E1EC3A110008E2251 /* Brawish.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFA075B11EC3A110008E2251 /* BrawishTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA075C91EC3A111008E2251 /* Build configuration list for PBXNativeTarget "BrawishTests" */;
+			buildPhases = (
+				EFA075AE1EC3A110008E2251 /* Sources */,
+				EFA075AF1EC3A110008E2251 /* Frameworks */,
+				EFA075B01EC3A110008E2251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA075B41EC3A110008E2251 /* PBXTargetDependency */,
+			);
+			name = BrawishTests;
+			productName = BrawishTests;
+			productReference = EFA075B21EC3A110008E2251 /* BrawishTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFA075BC1EC3A111008E2251 /* BrawishUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFA075CC1EC3A111008E2251 /* Build configuration list for PBXNativeTarget "BrawishUITests" */;
+			buildPhases = (
+				EFA075B91EC3A111008E2251 /* Sources */,
+				EFA075BA1EC3A111008E2251 /* Frameworks */,
+				EFA075BB1EC3A111008E2251 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFA075BF1EC3A111008E2251 /* PBXTargetDependency */,
+			);
+			name = BrawishUITests;
+			productName = BrawishUITests;
+			productReference = EFA075BD1EC3A111008E2251 /* BrawishUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFA075961EC3A110008E2251 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = hazza;
+				TargetAttributes = {
+					EFA0759D1EC3A110008E2251 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					EFA075B11EC3A110008E2251 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFA0759D1EC3A110008E2251;
+					};
+					EFA075BC1EC3A111008E2251 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EFA0759D1EC3A110008E2251;
+					};
+				};
+			};
+			buildConfigurationList = EFA075991EC3A110008E2251 /* Build configuration list for PBXProject "Brawish" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFA075951EC3A110008E2251;
+			productRefGroup = EFA0759F1EC3A110008E2251 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = EFB5595C1EEE67240091DDDE /* Products */;
+					ProjectRef = EFB5595B1EEE67240091DDDE /* SampleProject.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				EFA0759D1EC3A110008E2251 /* Brawish */,
+				EFA075B11EC3A110008E2251 /* BrawishTests */,
+				EFA075BC1EC3A111008E2251 /* BrawishUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		EFB559611EEE67240091DDDE /* SampleProject.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SampleProject.app;
+			remoteRef = EFB559601EEE67240091DDDE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		EFB559631EEE67240091DDDE /* SampleProjectTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = SampleProjectTests.xctest;
+			remoteRef = EFB559621EEE67240091DDDE /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFA0759C1EC3A110008E2251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB045681EC36E3A002B40E0 /* Logo.png in Resources */,
+				EFB559511EEB66AF0091DDDE /* service1.png in Resources */,
+				EFA075AC1EC3A110008E2251 /* LaunchScreen.storyboard in Resources */,
+				EFA075A91EC3A110008E2251 /* Assets.xcassets in Resources */,
+				EFB559531EEB66D40091DDDE /* maintenance_report_logo.png in Resources */,
+				4BBE65E61EC3584D003B6FEC /* as_user.png in Resources */,
+				4BBE65E41EC35839003B6FEC /* as_admin.png in Resources */,
+				EFB559551EEB670A0091DDDE /* about_us3.png in Resources */,
+				EFB5594F1EEB668C0091DDDE /* edit_notes.png in Resources */,
+				EFA075A71EC3A110008E2251 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA075B01EC3A110008E2251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA075BB1EC3A111008E2251 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFA0759A1EC3A110008E2251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B52E4171ECA2AF800FF5A3E /* UserLoginPage.swift in Sources */,
+				EFA075D21EC3B19D008E2251 /* SplashScreen.swift in Sources */,
+				4B52E4191ECA3F8500FF5A3E /* UserRegisterPage.swift in Sources */,
+				4B52E41B1ECA551000FF5A3E /* UserPage.swift in Sources */,
+				EFA075A41EC3A110008E2251 /* ViewController.swift in Sources */,
+				4B52E4151ECA21EC00FF5A3E /* AdminLoginPage.swift in Sources */,
+				EFA075A21EC3A110008E2251 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA075AE1EC3A110008E2251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA075B71EC3A110008E2251 /* BrawishTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFA075B91EC3A111008E2251 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA075C21EC3A111008E2251 /* BrawishUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFA075B41EC3A110008E2251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFA0759D1EC3A110008E2251 /* Brawish */;
+			targetProxy = EFA075B31EC3A110008E2251 /* PBXContainerItemProxy */;
+		};
+		EFA075BF1EC3A111008E2251 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFA0759D1EC3A110008E2251 /* Brawish */;
+			targetProxy = EFA075BE1EC3A111008E2251 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EFA075A51EC3A110008E2251 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA075A61EC3A110008E2251 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFA075AA1EC3A110008E2251 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFA075AB1EC3A110008E2251 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFA075C41EC3A111008E2251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFA075C51EC3A111008E2251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFA075C71EC3A111008E2251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brawish/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MPP.Brawish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EFA075C81EC3A111008E2251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Brawish/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MPP.Brawish;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EFA075CA1EC3A111008E2251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BrawishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MPP.BrawishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brawish.app/Brawish";
+			};
+			name = Debug;
+		};
+		EFA075CB1EC3A111008E2251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BrawishTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MPP.BrawishTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Brawish.app/Brawish";
+			};
+			name = Release;
+		};
+		EFA075CD1EC3A111008E2251 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BrawishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MPP.BrawishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Brawish;
+			};
+			name = Debug;
+		};
+		EFA075CE1EC3A111008E2251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BrawishUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MPP.BrawishUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Brawish;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFA075991EC3A110008E2251 /* Build configuration list for PBXProject "Brawish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA075C41EC3A111008E2251 /* Debug */,
+				EFA075C51EC3A111008E2251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA075C61EC3A111008E2251 /* Build configuration list for PBXNativeTarget "Brawish" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA075C71EC3A111008E2251 /* Debug */,
+				EFA075C81EC3A111008E2251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA075C91EC3A111008E2251 /* Build configuration list for PBXNativeTarget "BrawishTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA075CA1EC3A111008E2251 /* Debug */,
+				EFA075CB1EC3A111008E2251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFA075CC1EC3A111008E2251 /* Build configuration list for PBXNativeTarget "BrawishUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFA075CD1EC3A111008E2251 /* Debug */,
+				EFA075CE1EC3A111008E2251 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFA075961EC3A110008E2251 /* Project object */;
+}
