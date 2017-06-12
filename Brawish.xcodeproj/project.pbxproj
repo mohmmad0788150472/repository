@@ -44,20 +44,6 @@
 			remoteGlobalIDString = EFA0759D1EC3A110008E2251;
 			remoteInfo = Brawish;
 		};
-		EFB559601EEE67240091DDDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EFB5595B1EEE67240091DDDE /* SampleProject.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D50743C1AC546BB005AD163;
-			remoteInfo = SampleProject;
-		};
-		EFB559621EEE67240091DDDE /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EFB5595B1EEE67240091DDDE /* SampleProject.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 2D5074511AC546BB005AD163;
-			remoteInfo = SampleProjectTests;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -88,7 +74,6 @@
 		EFB559521EEB66D40091DDDE /* maintenance_report_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maintenance_report_logo.png; sourceTree = "<group>"; };
 		EFB559541EEB670A0091DDDE /* about_us3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about_us3.png; sourceTree = "<group>"; };
 		EFB559591EEE56B60091DDDE /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		EFB5595B1EEE67240091DDDE /* SampleProject.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SampleProject.xcodeproj; path = "../../Downloads/SSRadioButtonsController-master/SampleProject/SampleProject.xcodeproj"; sourceTree = "<group>"; };
 		EFB559641EEE69B90091DDDE /* DLRadioButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = DLRadioButton.m; path = "../DLRadioButton-master/DLRadioButton/DLRadioButton.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -188,19 +173,9 @@
 			children = (
 				EF13F9031EEE9F2A000EE032 /* RadioButton.h */,
 				EFB559641EEE69B90091DDDE /* DLRadioButton.m */,
-				EFB5595B1EEE67240091DDDE /* SampleProject.xcodeproj */,
 				EFB559591EEE56B60091DDDE /* QuartzCore.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		EFB5595C1EEE67240091DDDE /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				EFB559611EEE67240091DDDE /* SampleProject.app */,
-				EFB559631EEE67240091DDDE /* SampleProjectTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,12 +271,6 @@
 			mainGroup = EFA075951EC3A110008E2251;
 			productRefGroup = EFA0759F1EC3A110008E2251 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = EFB5595C1EEE67240091DDDE /* Products */;
-					ProjectRef = EFB5595B1EEE67240091DDDE /* SampleProject.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				EFA0759D1EC3A110008E2251 /* Brawish */,
@@ -310,23 +279,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		EFB559611EEE67240091DDDE /* SampleProject.app */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.application;
-			path = SampleProject.app;
-			remoteRef = EFB559601EEE67240091DDDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		EFB559631EEE67240091DDDE /* SampleProjectTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SampleProjectTests.xctest;
-			remoteRef = EFB559621EEE67240091DDDE /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EFA0759C1EC3A110008E2251 /* Resources */ = {
